@@ -1,0 +1,6 @@
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
