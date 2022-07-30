@@ -1,0 +1,19 @@
+{
+  "name": "nomoex-backend-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "author": "piyush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "tslint": "^6.1.3"
+  }
+}
