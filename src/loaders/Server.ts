@@ -99,7 +99,7 @@ export class Server {
       methods: ["GET", "POST"]
     }});
 
-    server.listen(3000)
+    server.listen(config.socketPort)
     Server.socket = io;
 
 
