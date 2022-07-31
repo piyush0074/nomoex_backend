@@ -289,3 +289,1269 @@
 {"level":"error","message":"{\"_original\":{\"email\":\"abc@gamil.com\",\"password\":\"kabdcldbciulb;kcjdbkcdbkdb;kjcdk\"},\"details\":[{\"message\":\"\\\"password\\\" length must be less than or equal to 12 characters long\",\"path\":[\"password\"],\"type\":\"string.max\",\"context\":{\"limit\":12,\"value\":\"kabdcldbciulb;kcjdbkcdbkdb;kjcdk\",\"label\":\"password\",\"key\":\"password\"}}]}"}
 {"level":"error","message":"{\"_original\":{\"email\":\"abc@gamil.com\",\"password\":12345},\"details\":[{\"message\":\"\\\"password\\\" must be a string\",\"path\":[\"password\"],\"type\":\"string.base\",\"context\":{\"label\":\"password\",\"value\":12345,\"key\":\"password\"}}]}"}
 {"level":"error","message":"{\"_original\":{\"email\":\"abcgamil.com\",\"password\":\"\"},\"details\":[{\"message\":\"\\\"email\\\" must be a valid email\",\"path\":[\"email\"],\"type\":\"string.email\",\"context\":{\"value\":\"abcgamil.com\",\"invalids\":[\"abcgamil.com\"],\"label\":\"email\",\"key\":\"email\"}}]}"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"error","message":"{\"_original\":{},\"details\":[{\"message\":\"\\\"email\\\" is required\",\"path\":[\"email\"],\"type\":\"any.required\",\"context\":{\"label\":\"email\",\"key\":\"email\"}}]}"}
+{"level":"error"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"error","message":"Server error occured in server.start TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Server'\n    |     property 'sockets' -> object with constructor 'Namespace'\n    --- property 'server' closes the circle"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":false,"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":{"methods":["GET","POST"],"origin":"*"},"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":{"methods":["GET","POST"],"origin":"*"},"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{"cors":{"methods":["GET","POST"],"origin":"*"}},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"yhzHiSMBYEkoWhTPAAAB"}
+{"level":"silly","message":"WHQqJue5GpcKb3SBAAAD"}
+{"level":"silly","message":"J8fsng_WTUaUFLhHAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"silly","message":{"_connectTimeout":45000,"_events":{},"_eventsCount":0,"_nsps":{},"_parser":{"PacketType":{"0":"CONNECT","1":"DISCONNECT","2":"EVENT","3":"ACK","4":"CONNECT_ERROR","5":"BINARY_EVENT","6":"BINARY_ACK","ACK":3,"BINARY_ACK":6,"BINARY_EVENT":5,"CONNECT":0,"CONNECT_ERROR":4,"DISCONNECT":1,"EVENT":2},"protocol":5},"_path":"/socket.io","_serveClient":true,"clientPathRegex":{},"eio":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":{"methods":["GET","POST"],"origin":"*"},"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"encoder":{},"engine":{"_events":{},"_eventsCount":1,"clients":{},"clientsCount":0,"opts":{"allowEIO3":false,"allowUpgrades":true,"cors":{"methods":["GET","POST"],"origin":"*"},"httpCompression":{"threshold":1024},"maxHttpBufferSize":1000000,"path":"/socket.io","pingInterval":25000,"pingTimeout":20000,"transports":["polling","websocket"],"upgradeTimeout":10000},"ws":{"_events":{},"_eventsCount":1,"_state":0,"options":{"backlog":null,"clientTracking":false,"handleProtocols":null,"host":null,"maxPayload":1000000,"noServer":true,"path":null,"port":null,"server":null,"skipUTF8Validation":false,"verifyClient":null}}},"httpServer":{"_connections":0,"_events":{},"_eventsCount":5,"_handle":null,"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"opts":{"cors":{"methods":["GET","POST"],"origin":"*"}},"parentNsps":{},"sockets":{"_events":{},"_eventsCount":0,"_fns":[],"_ids":0,"adapter":{"_events":{},"_eventsCount":0,"encoder":{},"nsp":"[Circular]","rooms":{},"sids":{}},"name":"/","server":"[Circular]","sockets":{}}}}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"KiOu5We195BuRCscAAAB"}
+{"level":"silly","message":"9bR7ZEMT9nJFRsJXAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"ZQqmiRL4ZPcV-jNFAAAB"}
+{"level":"silly","message":"WGmEei75kOlc0hReAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"error"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"body":"{\n                \"email\": 'piyush@gmail.com',\n                \"password\": \"12345678\",\n                }","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"error","message":"Error server : SyntaxError: Unexpected token ' in JSON at position 27"}
+{"level":"error","message":"Error server : SyntaxError: Unexpected token ' in JSON at position 10"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"error","message":"Error server : SyntaxError: Unexpected token ' in JSON at position 10"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"error","message":"Error server : SyntaxError: Unexpected token ' in JSON at position 10"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"error","message":"{\"_original\":{\"userName\":\"piyush@gmail.com\",\"password\":\"12345678\"},\"details\":[{\"message\":\"\\\"email\\\" is required\",\"path\":[\"email\"],\"type\":\"any.required\",\"context\":{\"label\":\"email\",\"key\":\"email\"}}]}"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"9yWISX5MlkvdcVQdAAAD"}
+{"level":"silly","message":"9yWISX5MlkvdcVQdAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"zr5pEFljBozFxPwzAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"JcaP3a-yo2uzpPMxAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"XdK8kpn4dpQeXh0sAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"MGOMIT_YRFKbdy4OAAAD"}
+{"level":"silly","message":"MGOMIT_YRFKbdy4OAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"smn5s9O3b09eZSXRAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"sVv6bfnhvWnDLG9jAAAD"}
+{"level":"silly","message":"sVv6bfnhvWnDLG9jAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"6aIUjPCPFScpseWBAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"socket"}
+{"level":"silly","message":"0kYJJXWQL3tnMnejAAAD"}
+{"level":"silly","message":"0kYJJXWQL3tnMnejAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"__XmgnN2FVo0qc2EAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"rb8D0riizeml8GhBAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"YlLjkCWFnbuBPBi6AAAF"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"5eFxERW5gLHnsGNvAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"7RKQkbH3T4ZZ0_1oAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"sdcV2T9SxLfdfFIoAAAF"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"Cinr-yuSgKeC4vkNAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly"}
+{"level":"silly","message":"8kfQQFGf_fC2ZjsFAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"H0tQ-ogpvYnqmCH2AAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"c2K8wbQRkKK7pP5xAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"KUAjTn2QzfNh1-_HAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"8t9B9ZqSnbjbIWjBAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"63uvPwsfZZQzRd-eAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"qJGeFuyoZD9idT_sAAAB"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"uabIApqE5DgbOFBsAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"4IwNSLpNI_SYgGWQAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"HmYXqRHLxZ_bJXBLAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"Zu78I7gfhYNmpSJHAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"bv8MkPrCEOoyjSjjAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"1HiXunjcdLClNvzYAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"rR6x29wIIN5WrYhTAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"ZvfDAq4YNrSH3Gp_AAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"p4JONjc_UwcepG3pAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"uTrFT_pT6kfT1mm4AAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"YnzYlbtKZZLM003LAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"MkhVktj__2Sl91cTAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"qckZ6NPMqODy1LJhAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"RjRejVGLC7KqV8QJAAAD"}
+{"level":"silly","message":"getting data"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"dwI3_Hoxchxqt9TYAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"JbcuebhGc0RvuXdkAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"5rAHcF9FYMmRtofqAAAB"}
+{"level":"silly","message":"flag : null"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"HZathbwL6R485x_xAAAB"}
+{"level":"silly","message":"flag : null"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"aLRPLjpaZSEJkYRuAAAB"}
+{"level":"silly","message":"flag : null"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"so39b0F4tQq177DtAAAB"}
+{"level":"silly","message":"flag : null"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"QC8xMSa2BKXPqZVsAAAB"}
+{"level":"silly","message":"flag : false"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"mZFV6lnJ21jrIoB3AAAD"}
+{"level":"silly","message":"flag : true"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"wmBhsrTntqaFoxsRAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"Ti-up5e5hnSVBTTNAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"piyush@gmail.com"}
+{"level":"silly","message":"szyDeH4tepM_Rf9JAAAD"}
+{"level":"silly","message":"flag : true"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"djHXS2VnvxXykEoNAAAB"}
+{"level":"silly","message":"flag : true"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"p9z6cfgX_Lz1NBfwAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"-WEIl8EZjw_f_RiBAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"vwPz9zxj6gqMl1kmAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"YBaFrEdPAgBkBt0QAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"Lrnoc1xjTgr1IQ5ZAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"a_MC2u6d9q_QGkWfAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"iMFT46HO9ciY2zf-AAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"LtElZbIxcM8P8LHAAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"tjGi3-ciT17BHmaMAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"cqADEnca_EVZhtZDAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"sO3IV-PrTnLbf1oYAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"PG8gSDSE6rvotuoCAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"ZbFapNHWTYxb_MU9AAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"9eXcg9MLpbFBzgkIAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"5cV9vTvjLd8_XmyBAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"WnaCJKsD573msLFuAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"dCEo-kbFhBLTmOi3AAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"s7YWQuj5odb2IZC7AAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"0mk_A-y-mTlGO4cJAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"-1S1W5CXp6i3g9RgAAAD"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"krlU7PFXmd2auU_hAAAF"}
+{"level":"silly","message":"krlU7PFXmd2auU_hAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"NC8F-ThI1_phnJLUAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"uCJyOkN-AVbIoLvlAAAF"}
+{"level":"silly","message":"NuuvnnjIKeRrnlMvAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"RtlBQC-4DT_X7vF_AAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"Lvq7aWiGl33VcMqaAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"1uTfaGyY3CaQncxKAAAH"}
+{"level":"silly","message":"gA-rxgxYK8kjcQCNAAAJ"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"nY7qj1lOnt77NYO2AAAL"}
+{"level":"silly","message":"nY7qj1lOnt77NYO2AAAL"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"i413V_A0_cj-MgcqAAAC"}
+{"level":"silly","message":"MLcKINp_p17cflFJAAAD"}
+{"level":"silly","message":"dzU8VGvdFicmhWLBAAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"CRsfyP8KRiCRGHw7AAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"HzJXYgW2sYbWBcY2AAAC"}
+{"level":"silly","message":"2LuK5FXbTwHS2RAeAAAD"}
+{"level":"silly","message":"YADdZP8rfth7gPv3AAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"tuAXTAHJmZeAYftAAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"JUWGwrq5moMr3PRuAAAC"}
+{"level":"silly","message":"bdlo0pSr98jpMLwuAAAD"}
+{"level":"silly","message":"oalJoU945lDj9lrMAAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"sQNLkGf8eSjqoXULAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"VoRSB0ltwmqis5x-AAAB"}
+{"level":"silly","message":"MKfwp7OD0PrX8us5AAAD"}
+{"level":"silly","message":"hv3zQf0nAQSSov9VAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"giymI2jYDAwfk0b4AAAB"}
+{"level":"silly","message":"CXu-2y3kIu_qnIXYAAAD"}
+{"level":"silly","message":"ABeyhnQrhtoZ5qoDAAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"0WyEmWAkcoGW4ZcuAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"lmUjzNjVxVmcqcjFAAAC"}
+{"level":"silly","message":"TtyXF4QHDB8R_2ILAAAD"}
+{"level":"silly","message":"t4Vk0sAquYh2Ua_6AAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"_dUj8wVLQgpiLD2uAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"Mj_imz_0Po8A4U66AAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"qMF07V4H_KQD5CIJAAAB"}
+{"level":"silly","message":"L0fXI5yc3jSnjs1FAAAD"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"FMcsMr4Pb6b1JQbFAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"xlvRFyZJKeA6iTCAAAAB"}
+{"level":"silly","message":"km6f0nol_Gy-fc1DAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"HSMLebWOpP2hcJkdAAAB"}
+{"level":"silly","message":"i_uuA78iqT9QMHFUAAAD"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"Ye8lqbZYuNrBDJXzAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"wCES2S4N2fJsMasuAAAC"}
+{"level":"silly","message":"ok7DiezQ57HV4lFdAAAD"}
+{"level":"silly","message":"zBbQuhUhno6N8kPMAAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"yseyrw_8cK9_esUzAAAH"}
+{"level":"silly","message":"yseyrw_8cK9_esUzAAAH"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"bcCcy1XJZCO_ZwbYAAAB"}
+{"level":"silly","message":"iY8s_LPE-0QC2N6BAAAD"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"ap1PRqYj86fSIFPFAAAF"}
+{"level":"silly","message":"ap1PRqYj86fSIFPFAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"vzIVvKSljj5O4y_5AAAB"}
+{"level":"silly","message":"up-5i6eC8-GHIbaTAAAD"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"vBpBo5UFFIaKU-JLAAAF"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"jMZ9ZxexJ8DZYnlVAAAB"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"i798TBCl3mGEW9zSAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"N5YOKDPvCJuI0N4LAAAB"}
+{"level":"silly","message":"uIq33aeDe4Wpp_GkAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"PImcO5P91BxEh_99AAAB"}
+{"level":"silly","message":"QGNQBwtjl3AbayqfAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"M0YZ82XPEO5xHxFTAAAC"}
+{"level":"silly","message":"8-KbN3Jl0PgIfPPtAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"ZZFZ1oYsSQM_VuFgAAAB"}
+{"level":"silly","message":"A0-mTOQt70GAZ6hkAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"kZvlpdHQoK2POhiRAAAC"}
+{"level":"silly","message":"yXpBKy2B2_f0ulzjAAAD"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"dRXBXgmxEA_WL_34AAAB"}
+{"level":"silly","message":"byLytdTnMFFaCBckAAAD"}
+{"level":"silly","message":"lowW1d5-5jwoI-BHAAAF"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"55AaJt-hB7ONxPWOAAAH"}
+{"level":"silly","message":"ojOXyoBSjwNqmwfkAAAJ"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"HryZN6xQJhs_Qv8PAAAB"}
+{"level":"info","message":"Init"}
+{"level":"info","message":"index.InitializeServer"}
+{"level":"info","message":"Mongodb init."}
+{"level":"info","message":"URI : mongodb://127.0.0.1:27017/nomoex"}
+{"level":"info","message":"Routes initialize."}
+{"level":"info","message":"******Server listening on PORT: 8080******"}
+{"level":"silly","message":"CR22-iUDNzDrPeabAAAB"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"9GJAZR2el3qjNnpLAAAD"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"param verify"}
+{"level":"info","message":"Logging in user"}
+{"level":"info","message":"generating token"}
+{"level":"silly","message":"4Evi74pTZWV8KISkAAAF"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"4xgvcpPW9SriTvmvAAAH"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}
+{"level":"silly","message":"send crypto data"}

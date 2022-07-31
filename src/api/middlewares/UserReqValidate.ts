@@ -38,6 +38,7 @@ export class UserReqValidate {
             throw new BadRequestError(JSON.stringify(error));
             // new BadRequestResponse(JSON.stringify(error)).send(res);
         } else {
+            logger.silly('param verify')
             next();
         }
     }

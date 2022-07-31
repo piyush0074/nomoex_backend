@@ -2,9 +2,10 @@ import { Request, Response } from 'express';
 import { Server } from '../loaders/Server';
 import logger from '../loaders/Logger';
 import bcrypt from 'bcrypt';
-import jwt, { decode } from 'jsonwebtoken';
+import jwt, { decode, verify } from 'jsonwebtoken';
 import { BadRequestResponse, CreateResponse, DuplicateResponse, SuccessMsgResponse, SuccessResponse } from '../core/APIresponse';
 import config from '../config';
+import axios from 'axios';
 
 
 export class User {
@@ -30,6 +31,7 @@ export class User {
     }
 
     public async loginUser(req: Request, res: Response) {
+        logger.info('Logging in user')
         let token: string;
         try {
             const user = await Server.instance.mongodb.getUser(
@@ -39,7 +41,9 @@ export class User {
             if (
                 validPassword
             ) {
-                token = this.generateToken(req.body.userId);
+                token = this.generateToken(req.body.email);
+
+                // this.connectSocket()
                 return new SuccessResponse('Login in sccuessfull', {
                     token
                 }).send(res);
@@ -47,17 +51,23 @@ export class User {
                 return new BadRequestResponse('invalid email or password').send(res);
             }
         } catch(err) {
-            logger.error(err)
+            logger.error('Error in login : '+err)
             return new BadRequestResponse('User doesnt exists. error : '+err).send(res);
         }
     }
 
+    // private connectSocket() {
+    //     Server.socket.on("connection", (socket:any) => {
+    //         logger.silly(socket.id)
+    //         });
+    // }
+
     private generateToken(email: string): string {
+        logger.info('generating token')
         const jwtSecretKey = config.jwtSecret;
         const data: {[id: string]: string} = {
             email,
         }
-
         const token = jwt.sign(
             { email },
             config.jwtSecret,

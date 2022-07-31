@@ -1,7 +1,11 @@
 export default {
 
     port:  8080,
+
+    socketPort: 3000,
     host: /*process.env.HOST ||*/ 'localhost',
+
+    binanceAPI: `https://api.binance.com/api/v3/ticker/24hr?symbols=["BTCUSDT","ETHUSDT","ENJUSDT","GRTUSDT"]`,
 
     logs: {
         level: 'silly',
