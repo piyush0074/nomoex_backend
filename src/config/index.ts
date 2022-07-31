@@ -12,7 +12,7 @@ export default {
         prefix: '/api',
     },
 
-    jwtSecret: process.env.JWT_SECRET || 'AoTgab%$SKBJB(Baco&euro$!(*^%fcxuartcuYCAvhagA)Y^VYcdw(TVYCtxt@ibs)a%Wbha5$',
+    jwtSecret: 'AoTgab%$SKBJB(Baco&euro$!(*^%fcxuartcuYCAvhagA)Y^VYcdw(TVYCtxt@ibs)a%Wbha5$',
 
     jwtAlgorithm: process.env.JWT_ALGORITHUM || 'HS256',
 

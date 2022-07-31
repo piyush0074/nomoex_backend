@@ -6,6 +6,8 @@ import config from '../config';
 import { Mongodb } from '../models/Mongo';
 import { NotFoundError, ApiError, InternalError } from '../core/APIerror';
 
+import http from 'http';
+
 export class Server {
   static instance: Server;
 
